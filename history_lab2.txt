@@ -1,0 +1,90 @@
+    1  calc
+    2  ls
+    3  pwd
+    4  ls -ls
+    5  ls -alt
+    6  cd Downloads/
+    7  ls
+    8  cd ..
+    9  history > history_lab2.txt
+    1  userdel Bamboo
+    2  sudo userdel Bamboo
+    3  su
+    4  users
+    5  users --help
+    6  man users
+    7  exit
+    8  su
+    9  eixt
+   10  exit
+   11  su
+   12  exit
+   13  clear
+   14  cd ~
+   15  mkdir lab2
+   16  cd lab2
+   17  mkdir test
+   18  touch file
+   19  ls -alt
+   20  mv test file
+   21  mv file test
+   22  cd test
+   23  ls
+   24  ls -alt
+   25  ll file
+   26  chmod 000 file
+   27  echo "test" >> file
+   28  cat file
+   29  chmod 200 file
+   30  ll file
+   31  echo "test" >> file
+   32  cat file
+   33  chmod 240 file
+   34  ll file
+   35  cat file
+   36  chmod 640 file
+   37  ll file
+   38  cat file
+   39  ls
+   40  mkdir dir
+   41  cd dir
+   42  touch new_file
+   43  echo "file 2">> new_file 
+   44  ls
+   45  ll new_file 
+   46  cd ..
+   47  ls
+   48  chmod 600 dir
+   49  cd dir
+   50  umask dir
+   51  chmod 755 dir
+   52  cd dir
+   53  ls
+   54  chmod 600 dir
+   55  chmod 600 new_file 
+   56  re new_file 
+   57  rm new_file 
+   58  touch new_file
+   59  echo "file 2">> new_file 
+   60  cd ..
+   61  ls
+   62  id
+   63  chown root file
+   64  sudo chown root file
+   65  sudo chown root:root file
+   66  touch file1
+   67  ll file1
+   68  chmod 600 file1
+   69  ll file1
+   70  rm file1
+   71  umask 0077
+   72  touch file1
+   73  ll file1
+   74  umask 0000
+   75  > file2
+   76  ll file2
+   77  pwn
+   78  pwd
+   79  cat file
+   80  vim file
+   81  history >> history_lab2.txt
