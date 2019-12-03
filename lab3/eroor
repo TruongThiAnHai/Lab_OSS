@@ -1,0 +1,24 @@
+total 92
+-rw-rw-r--. 1 phuoc phuoc  66 Sep 25 08:34 argu2.sh
+-rwxrwxr-x. 1 phuoc phuoc  44 Sep 25 08:31 argu.sh
+-rw-rw-r--. 1 phuoc phuoc  39 Sep 22 00:17 count_txt.sh
+-rw-rw-r--. 1 phuoc phuoc 188 Sep 23 04:27 cpu_sd.sh
+-rw-rw-r--. 1 phuoc phuoc 272 Oct 14 23:55 echo
+-rw-rw-r--. 1 phuoc phuoc 260 Sep 22 03:46 file_an.sh
+-rw-rw-r--. 1 phuoc phuoc 118 Sep 25 08:17 filetxt.sh
+-rw-rw-r--. 1 phuoc phuoc  43 Sep 23 04:41 five_mem.sh
+-rw-rw-r--. 1 phuoc phuoc  24 Sep 23 05:08 khongbiet.sh
+-rwxrwxr-x. 1 phuoc phuoc 128 Oct 14 23:45 logfile.sh
+-rw-rw-r--. 1 phuoc phuoc  61 Sep 21 10:55 make_shared.sh
+-rwxrwxr-x. 1 phuoc phuoc  47 Sep 25 07:10 mofiletruoc.sh
+-rw-rw-r--. 1 phuoc phuoc  37 Sep 26 03:06 ptgrep.sh
+-rw-rw-r--. 1 phuoc phuoc 199 Sep 25 08:26 sixzero.sh
+-rw-rw-r--. 1 phuoc phuoc  21 Sep 22 00:36 sort_env.sh
+-rw-rw-r--. 1 phuoc phuoc 524 Sep 25 12:21 test123.sh
+-rw-rw-r--. 1 phuoc phuoc 124 Sep 25 12:07 testrandom5number.sh
+-rw-rw-r--. 1 phuoc phuoc 453 Sep 26 02:49 testtype.sh
+-rw-rw-r--. 1 phuoc phuoc  24 Sep 22 03:50 timee.sh
+-rw-rw-r--. 1 phuoc phuoc  33 Sep 22 01:29 tim_file.sh
+-rw-rw-r--. 1 phuoc phuoc 292 Sep 23 05:31 typder.sh
+-rw-rw-r--. 1 phuoc phuoc  55 Sep 26 03:27 userhome.sh
+-rw-rw-r--. 1 phuoc phuoc  59 Sep 22 00:41 xinchao.sh
