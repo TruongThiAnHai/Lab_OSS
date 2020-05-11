@@ -1,0 +1,58 @@
+    1  ps xaf
+    2  ps xawf -eo pid,user,cgroup,args
+    3  ll /usr/lib/systemd/system
+    4  ll /run/systemd/system/
+    5  ll /etc/systemd/system
+    6  systemctl -t help
+    7  systemctl status
+    8  systemctl --type=service
+    9  systemctl status auditd.service
+   10  systemctlis-active auditd.service
+   11  systemctl is-active auditd.service
+   12  systemctl is-enabled auditd.service 
+   13  systemctl list-dependencies --after auditd.service 
+   14  systemctl list-dependencies --before auditd.service 
+   15  systemctl list-units --type=service
+   16  systemctl list-units --type=service --all
+   17  systemctl list-units --type=socket --all
+   18  systemctl list-unit-files --type=service
+   19  systemctl --failed --type=service
+   20  hostname
+   21  sudo yum update
+   22  sudo apt install apache2
+   23  sudo yum -y install httpd
+   24  systemctl status httpd.service
+   25  curl 127.0.0.1
+   26  ping 8.8.8.8
+   27  curl 127.0.0.1
+   28  systemctl status httpd.service
+   29  curl 127.0.0.1
+   30  restart
+   31  history
+   32  systemctl status httpd.service
+   33  systemctl start httpd.service
+   34  systemctl status httpd.service
+   35  systemctl restart httpd.service
+   36  systemctl status httpd.service
+   37  systemctl stop httpd.service
+   38  systemctl enable httpd.service
+   39  systemctl disable httpd.service
+   40  systemctl mask httpd.service
+   41  systemctl unmask httpd.service
+   42  systemctl list-units --type=target
+   43  systemctl list-units --type=target --all
+   44  systemctl get-default
+   45  ls -l /etc/systemd/system/default.target
+   46  systemctl set-default multi-user.target 
+   47  systemctl isolate multi-user.target
+   48  systemctl --no-wall rescue
+   49  history
+   50  history > lab3.txt
+    1  touch /etc/systemd/system/gedit.service
+    2  chmod 664 /etc/systemd/system/gedit.service
+    3  gedit /etc/systemd/system/gedit.service 
+    4  systemctl daemon-reload
+    5  systemctl start gedit.service 
+    6  cp /etc/systemd/system/gedit.service ~/
+    7  exit
+    8  history >> lab3.txt

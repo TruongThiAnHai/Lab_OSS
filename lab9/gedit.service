@@ -1,0 +1,8 @@
+[Unit]
+Description=Gedit: the text editor
+Documentation=https://developer.gnome.org/gedit/
+Requires=foo.service
+Wants=foo.service
+[Install]
+WantedBy=default.target
+RequireBy=multi-user.target
