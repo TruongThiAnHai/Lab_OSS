@@ -1,0 +1,111 @@
+
+  884  man su
+  885  man hostname
+  886  su -c "hostname mephi"
+  887  sudo gedit /etc/pam.d/su
+  888  gedit /etc/pam.d/su
+  889  sudo gedit /etc/pam.d/su
+  890  usermod -aG wheel user1
+  891  sudo usermod -aG wheel user1
+  892  sudo useradd -mG wheel user1
+  893  whoami
+  894  su -user1
+  895  su - user1
+  896  su -u user1
+  897  su - user1
+  898  startx
+  899  su - user1
+  900  sudo passwd user1
+  901  history
+  902  ls
+  903  su - user1
+  904  su
+  905  tcpdump -i en0
+  906  man tcpdump
+  907  history
+  908  sudo gedit /etc/pam.d
+  909  sudo cat /etc/pam.d
+  910  cd /etc/pam.d
+  911  ls
+  912  ls -l /lib64/libpam*
+  913  ls -l /lib64/security/
+  914  ll /etc/security/
+  915  sudo gedit /etc/pam.d/su
+  916  sudo vi /etc/pam.d/su
+  917  cat /lib64/security
+  918  ll /lic64/security
+  919  sudo ll /lib64/security
+  920  sudo ls -l /lib64/security
+  921  sudo cat /etc/pam.conf
+  922  sudo ls -l  /etc/pam.conf
+  923  sudo ls -l /etc |grep pam
+  924  sudo cat su
+  925  sudo cat /etc/login.defs
+  926  sudo cat su
+  927  ls
+  928  sudo cat sudo
+  929  cd ..
+  930  ls
+  931  ls |grep pam
+  932  man pam_limits
+  933  ll /etc/security
+  934  find / -type f -name system-auth
+  935  find / -type f -name system-auth 2> /dev/null
+  936  sudo find / -type f -name system-auth
+  937  cat /etc/pam.d/system-auth
+  938  cd ~
+  939  touch check_user.c
+  940  gedit check_user.c
+  941  su
+  942  gedit check_user.c
+  943  ls
+  944  cat lab3.txt 
+  945  gedit lab3.txt 
+  946  ps -e | grep gedit
+  947  ls /etc/systemd/system/ |grep gedit
+  948  gedit
+  949  gnomesu gedit
+  950  gksu gedit
+  951  kdesu kate
+  952  startx
+  953  gedit
+  954  vim check_user.c
+  955  cat check_user.c 
+  956  vim check_user.c
+  957  ls
+  958  gedit check_user.c
+  959  su
+  960  ./check_user userchi
+  961  ./check_user tnorus
+  962  su - root
+  963  su - root
+  964  ls
+  965  ./check_user user1
+  966  ./check_user root
+  967  su - root
+  968  ls
+  969  ./check_user 
+  970  ./check_user tnorus
+  971  ./check_user tnorus user1
+  972  ./check_user user1
+  973  su - user1
+  974  ls
+  975  ./check_user user1
+  976  ./check_user userchi
+  977  su -
+  978  ./check_user user1
+  979  ./check_user userchi
+  980  ./check_user tnorus
+  981  ./check_user user1
+  982  ./check_user userchi
+  983  sudo ./check_user user1
+  984  ls
+  985  exit
+  986  su
+  987  gedit /etc/securetty 
+  988  gedit /etc/pam.d/login
+  989  man pam_pwquality
+  990  vim /etc/security/pwquality.conf 
+  991  man pam_limits
+  992  gedit /etc/security/limits.conf 
+  993  history >>lab10.txt
