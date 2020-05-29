@@ -1,0 +1,45 @@
+    1  yum repolist
+    2  yum grouplist
+    3  rpm -pa |less
+    4  rpm -pa |wc -l
+    5  yum list installed |less
+    6  rpm -qa |grep gnuplot
+    7  yum search gnuplot
+    8  yum info gnuplot
+    9  sudo yum install gnuplot
+   10  rpm -ql gnuplot
+   11  rpm -qf /usr/bin/gnuplot-wx
+   12  yum deplist gnuplot
+   13  sudo rpm -e gnuplot-common
+   14  sudo yum remove gnuplot-common
+   15  yum repolist
+   16  rpm -qa
+   17  rpm -qa | wc -l
+   18  yum grouplist
+   19  yum repolist
+   20  yum list installed |less
+   21  yum list installed | grep gnuplot
+   22  sudo yum remove gnuplot-common
+   23  yum list installed | grep gnuplot
+   24  man yum
+   25  touch /etc/yum.repos.d/yandex.repo
+   26  cd /etc/
+   27  mkdir yum.repos.d
+   28  cd yum.repos.d
+   29  ls
+   30  touch yandex.repo
+   31  sudo touch yandex.repo
+   32  gedit yandex.repo 
+   33  sudo gedit yandex.repo 
+   34  sudo yum clean all
+   35  sudo yum repolist yandex
+   36  sudo yum install @development-tools rpmdev* rpm-sign
+   37  rpmbuild
+   38  cd
+   39  rpmdev-setuptree
+   40  cd ~rpmbuild/SOURCES
+   41  cd ~/rpmbuild/SOURCES
+   42  mkdir 565-1-1.0
+   43  cd 565-1-1.0/
+   44  vi 565-1
+   
